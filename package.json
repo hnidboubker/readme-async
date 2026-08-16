@@ -1,6 +1,6 @@
 {
   "name": "readme-async",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "Keep your project's README.md synchronized with the actual codebase",
   "type": "module",
   "bin": {
@@ -27,8 +27,8 @@
   "author": "hnidboubker",
   "license": "MIT",
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/hnidboubker/readme-async.git"
+    "type": "git",
+    "url": "git+https://github.com/hnidboubker/readme-async.git"
   },
   "bugs": {
     "url": "https://github.com/hnidboubker/readme-async/issues"
