@@ -27,8 +27,8 @@
   "author": "hnidboubker",
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/hnidboubker/readme-async.git"
+  "type": "git",
+  "url": "git+https://github.com/hnidboubker/readme-async.git"
   },
   "bugs": {
     "url": "https://github.com/hnidboubker/readme-async/issues"
