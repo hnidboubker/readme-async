@@ -1,5 +1,5 @@
 {
-  "name": "@readme-async",
+  "name": "readme-async",
   "version": "1.0.0",
   "description": "Keep your project's README.md synchronized with the actual codebase",
   "type": "module",
