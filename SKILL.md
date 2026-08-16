@@ -7,6 +7,7 @@ description: Keep the project README synchronized with the current codebase by d
 
 ### Via npm/npx (recommended)
 
+
 ```bash
 # Install globally, then run anywhere
 npm install -g @skills-collection/readme-async
