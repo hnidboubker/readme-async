@@ -33,6 +33,14 @@ async function main() {
   const skillsDir = join(TARGET_DIR, '.claude', 'skills');
   const targetSkillDir = join(skillsDir, SKILL_NAME);
 
+  // When running npm install inside the package repository itself,
+  // do not try to install the skill into itself.
+  if (resolve(TARGET_DIR) === resolve(SKILL_SOURCE_DIR)) {
+    log('Running inside the readme-async repository.');
+    log('Skipping self-installation.');
+    return;
+  }
+
   // Create .claude/skills if needed
   if (!existsSync(skillsDir)) {
     mkdirSync(skillsDir, { recursive: true });
