@@ -38,5 +38,8 @@
   },
   "devDependencies": {
     "semantic-release": "^25.0.9"
-  }
+  },
+   "release": {
+    "branches": ["main", "next"]
+   }
 }
