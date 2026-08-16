@@ -1,0 +1,40 @@
+{
+  "name": "@readme-async",
+  "version": "1.0.0",
+  "description": "Keep your project's README.md synchronized with the actual codebase",
+  "type": "module",
+  "bin": {
+    "readme-async": "scripts/install.js"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "scripts/",
+    "references/"
+  ],
+  "scripts": {
+    "install": "node scripts/install.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "skill",
+    "readme",
+    "documentation",
+    "sync",
+    "claude",
+    "claude-code"
+  ],
+  "author": "Skills Collection",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/readme-async.git"
+  },
+  "bugs": {
+    "url": "https://github.com/readme-async/issues"
+  },
+  "homepage": "https://github.com/readme-async#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
