@@ -7,10 +7,24 @@ on:
     types:
       - completed
 
+  workflow_dispatch:
+
 permissions:
   contents: read
 
+  
+
 jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test trigger
+        run: |
+          echo "npm-publish déclenché"
+          echo "Workflow: ${{ github.event.workflow_run.name }}"
+          echo "Conclusion: ${{ github.event.workflow_run.conclusion }}"
+          echo "SHA: ${{ github.event.workflow_run.head_sha }}"
   publish:
     name: Publish to npm
     if: >
