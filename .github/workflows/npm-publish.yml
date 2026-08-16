@@ -28,6 +28,13 @@ jobs:
           node-version: 22
           registry-url: https://registry.npmjs.org
 
+      - name: Debug files
+        run: |
+          pwd
+          ls -la
+          test -f package.json && echo "package.json OK"
+          test -f package-lock.json && echo "package-lock.json OK" || echo "package-lock.json MISSING"
+
       - name: Install dependencies
         run: npm ci
 
