@@ -4,15 +4,17 @@ Keep your project's README.md synchronized with the actual codebase by detecting
 
 ## Installation
 
-### Via npm/npx (recommended)
+### Via npm/npx (not available yet)
+
+> **Note:** The `npm/npx` method is not available yet. Until the package is published, use the script method below.
 
 ```bash
 # Install globally, then run anywhere
-npm install -g @skills-collection/readme-async
+npm install -g readme-async
 readme-async [target-project-path]
 
 # Or run directly without installing
-npx @skills-collection/readme-async [target-project-path]
+npx readme-async [target-project-path]
 ```
 
 ### Via script (from cloned repo)
