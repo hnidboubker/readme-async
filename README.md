@@ -1,6 +1,5 @@
 [![Release](https://github.com/hnidboubker/readme-async/actions/workflows/build-release.yml/badge.svg)](https://github.com/hnidboubker/readme-async/actions/workflows/build-release.yml)
 [![npm Publish](https://github.com/hnidboubker/readme-async/actions/workflows/build-npm-publish.yml/badge.svg)](https://github.com/hnidboubker/readme-async/actions/workflows/build-npm-publish.yml)
-
 # readme-async
 
 Keep your project's README.md synchronized with the actual codebase by detecting relevant changes, updating outdated documentation, and verifying that commands, configuration, examples, and project structure remain accurate.
