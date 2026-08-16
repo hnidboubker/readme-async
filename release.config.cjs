@@ -13,6 +13,25 @@ module.exports = {
     ],
 
     [
+      '@semantic-release/exec',
+      {
+        prepareCmd: 'npm version ${nextRelease.version} --no-git-tag-version',
+      },
+    ],
+
+    [
+      '@semantic-release/git',
+      {
+        assets: [
+          'package.json',
+          'package-lock.json',
+          'CHANGELOG.md',
+        ],
+        message: 'chore(release): ${nextRelease.version} [skip ci]',
+      },
+    ],
+
+    [
       '@semantic-release/github',
       {
         successComment: false,
